@@ -9,6 +9,7 @@ scipy
 scikit-learn
 
 # Stats
+statistics
 statsmodels
 
 # Visualization

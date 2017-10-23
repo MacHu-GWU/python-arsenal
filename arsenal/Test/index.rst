@@ -1,4 +1,8 @@
-Database
+Test
 ==============================================================================
 
-* sqlalchemy
+* mock
+* pytest
+* pytest-cov
+* codecov
+* tox

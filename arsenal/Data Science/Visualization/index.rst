@@ -1,4 +1,7 @@
-Database
+Visualization
 ==============================================================================
 
-* sqlalchemy
+* matplotlib
+* seaborn
+* bokeh
+* folium
