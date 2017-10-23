@@ -1,7 +1,4 @@
-Database Driver
+CSV
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* tablib

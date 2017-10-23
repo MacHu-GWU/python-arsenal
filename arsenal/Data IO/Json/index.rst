@@ -1,7 +1,7 @@
-Database Driver
+JSON
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* ujson
+* json_tricks
+* jsonpickle
+* superjson

@@ -1,0 +1,10 @@
+# Crawler
+requests        # HTTP for Humans
+beautifulsoup4  # parse html tag
+selenium        # fake webbrowser activity
+scrapy          # crawler framework
+
+# My Own Project
+crawlib         # A crawl library
+pytq            # Python task queue
+apipool         # API pool management framework

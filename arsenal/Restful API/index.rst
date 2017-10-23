@@ -1,7 +1,7 @@
-Database Driver
+Restful API
 ==============================================================================
+Framework to build database restful API
 
-Library for connecting and operating database.
+* eve
+* Flask-Restless
 
-* tinydb
-* ZODB

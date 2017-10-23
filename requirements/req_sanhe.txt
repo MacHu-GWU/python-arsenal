@@ -1,0 +1,24 @@
+# My Personal
+dataIO              # one line json, pickle, textfile IO
+superjson           # extensible json IO
+loggerFactory       # logger utilities
+crawlib             # crawler library
+constant2           # constant, config management
+sfm                 # set of tools
+docfly              # extended sphinx doc tools
+apipool             # multiple api management
+rolex               # datetime library
+ezinstall           # manual install by copy to site-packages
+pygitrepo           # initialize a python project from scratch
+pytq                # python task queue
+windtalker          # encryption tool
+
+
+# Library Improvement
+attrs_mate          # extended attrs library
+inspect_mate        # extended inspect library, for meta programming
+pathlib_mate        # extended pathlib library
+pymongo_mate        # extended pymongo library
+mongoengine_mate    # extended mongoengine library
+sqlalchemy_mate     # extended sqlalchemy library
+pandas_mate         # extended pandas library

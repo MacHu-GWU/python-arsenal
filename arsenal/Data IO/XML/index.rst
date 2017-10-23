@@ -1,7 +1,4 @@
-Database Driver
+XML
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* lxml

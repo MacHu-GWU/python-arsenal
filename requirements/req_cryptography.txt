@@ -1,0 +1,4 @@
+cryptography            # Advance, modern, stable cryptography library
+bcrypt                  # Slow encryption to defend brute force
+rsa                     # Pure Python implementation of RSA
+windtalker              # Encryption application

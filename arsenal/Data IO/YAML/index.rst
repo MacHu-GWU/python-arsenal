@@ -1,7 +1,4 @@
-Database Driver
+YAML
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* PyYAML

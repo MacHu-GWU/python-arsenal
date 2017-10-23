@@ -1,7 +1,4 @@
-Database Driver
+Search Engine
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* whoosh

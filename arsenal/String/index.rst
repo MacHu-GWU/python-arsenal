@@ -1,7 +1,6 @@
-Database Driver
+String
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+* fuzzywuzzy
+* python-Levenshtein
+* parse

@@ -1,7 +1,4 @@
-Database Driver
+Python: Beautiful is better than ugly
 ==============================================================================
 
-Library for connecting and operating database.
-
-* tinydb
-* ZODB
+pip install -r <path-to-requirements.txt>
