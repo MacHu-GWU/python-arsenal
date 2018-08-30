@@ -1,6 +1,5 @@
-Database
+Funtional Programming
 ==============================================================================
 
-* sqlalchemy
-* sqlalchemy_mate
-* dataset
+* toolz
+* cytoolz
