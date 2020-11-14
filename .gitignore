@@ -3,6 +3,7 @@ python-arsenal_venv/
 python-arsenal.egg-info/
 python-arsenal-*/
 *.sqlite
+arsenal-sorted.yml
 
 # Pycharm
 

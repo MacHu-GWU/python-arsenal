@@ -1,0 +1,12 @@
+meta:
+categories:
+  - category: Web Framework
+    description:
+    pkgs:
+      - pkg: Flask
+        description: hello
+  - category: Microservice
+    description:
+    pkgs:
+      - pkg: chalice
+        descriptioon: AWS Lambda Based microservice framework. Flask styled router, decorator.
