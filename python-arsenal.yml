@@ -1,96 +1,110 @@
+- list_name: Data Structure
+  weapons:
+    - name: bidict
+      description: 对 dict 的极大增强, 允许你用 value 反过来访问 key. 是一个很成熟的项目, 历史悠久, 维护良好, 被很多大公司使用.
+    - name: collections-extended
+      description: 对标准库 collections 的扩展, 提供了多种实用数据结构, bag, setlist, bijection, RangeMap, IndexedDict
+    - name: ordered-set
+      description: 保持元素插入顺序的 set 数据结构, 纯 Python 实现.
+    - name: python_box
+      description: 对 dict 的极大增强, 允许你用 ``dct.key`` 属性的方式访问字典的值, 并且序列化为 json, yaml. 是一个很成熟的项目, 历史悠久, 维护良好.
+    - name: simhash
+      description: 在爬虫领域计算两个文本的相似度的 hash 值, 能快速的检测重复, 检测相似文本.
+    - name: sortedcontainers
+      description: 常见的数据结构的内排序版本, 保持内部元素是有序的, SortedList, SortedDict, SortedSet
 - list_name: Database - Dynamodb
   weapons:
-  - name: pynamodb
-    description: Dynamodb ORM, CRUD framework. 作者是个人, 但是 contributor 很多.
-    homepage: https://github.com/pynamodb/PynamoDB
-  - name: pynamodb_mate
-    description: pynamodb library improvement
+    - name: pynamodb
+      description: Dynamodb ORM, CRUD framework. 作者是个人, 但是 contributor 很多.
+      homepage: https://github.com/pynamodb/PynamoDB
+    - name: pynamodb_mate
+      description: pynamodb library improvement
 - list_name: Database - ElasticSearch
   weapons:
-  - name: opensearch_dsl
-    description: OpenSearch 的 ORM 框架, 优化了查询 API, 避免了手写复杂的 json 语法.
-  - name: opensearch_py
-    description: official OpenSearch python client
+    - name: opensearch_dsl
+      description: OpenSearch 的 ORM 框架, 优化了查询 API, 避免了手写复杂的 json 语法.
+    - name: opensearch_py
+      description: official OpenSearch python client
 - list_name: Database - MongoDB
   weapons:
-  - name: mongoengine
-    description: ORM framework for mongodb
-    homepage: http://mongoengine.org/
-  - name: pymongo
-    description: official mongodb python client
-  - name: umongo
-    description: Async ORM framework for mongodb
-    homepage: https://github.com/Scille/umongo
+    - name: mongoengine
+      description: ORM framework for mongodb
+      homepage: http://mongoengine.org/
+    - name: pymongo
+      description: official mongodb python client
+    - name: umongo
+      description: Async ORM framework for mongodb
+      homepage: https://github.com/Scille/umongo
 - list_name: Database - SQL
   weapons:
-  - name: peewee
-    description: 历史接近 10 年的 ORM 框架, 相比 sqlalchemy 小而美, 无第三方依赖.
-  - name: pony
-    decription: 提供了用类似 list comprehension 的语法写 SQL 的能力, 使用了机器字节码魔改了 Python 的 syntax, 很新很有趣, 适合小品项目, 但不适合大型生产环境.
-  - name: sqlalchemy
-    description: 针对 RDBMS, Python 社区功能最强, 最稳定的 ORM 框架. 无第三方依赖, 上手难度相比其他框架要高, 但是更适用大型生产项目.
-    homepage: https://www.sqlalchemy.org/
+    - name: peewee
+      description: 历史接近 10 年的 ORM 框架, 相比 sqlalchemy 小而美, 无第三方依赖.
+    - name: pony
+      decription: 提供了用类似 list comprehension 的语法写 SQL 的能力, 使用了机器字节码魔改了 Python 的 syntax, 很新很有趣, 适合小品项目, 但不适合大型生产环境.
+    - name: sqlalchemy
+      description: 针对 RDBMS, Python 社区功能最强, 最稳定的 ORM 框架. 无第三方依赖, 上手难度相比其他框架要高, 但是更适用大型生产项目.
+      homepage: https://www.sqlalchemy.org/
 - list_name: file system
   weapons:
-  - name: cloudpathlib
-    description: 有企业背书, 兼容本地文件系统和 AWS S3, GCP Cloud Storage, Azure Blob Storage. 提供统一的 API.
-    website: https://cloudpathlib.drivendata.org/stable/
-  - name: pathy
-    description: null
+    - name: cloudpathlib
+      description: 有企业背书, 兼容本地文件系统和 AWS S3, GCP Cloud Storage, Azure Blob Storage. 提供统一的 API.
+      website: https://cloudpathlib.drivendata.org/stable/
+    - name: pathy
+      description: null
 - list_name: my opensource
   weapons:
-  - name: afwf_aws_tools
-    description: 在 Alfred 中快速打开 AWS Console, 搜索 AWS Resource, 支持全文搜索.
-    homepage: https://github.com/MacHu-GWU/afwf_aws_tools-project
-  - name: afwf_fts_anything
-    description: 一个用于构建 Alfred 全文搜索的框架, 用户只需要把他们的 data 用 JSON 保存, 并配置 settings, 就能立刻构建起一个支持全文搜索, 快速启动的应用.
-    homepage: https://github.com/MacHu-GWU/afwf_fts_anything-project
-  - name: afwf_genpass
-    description: 创建随机密码.
-    homepage: https://github.com/MacHu-GWU/afwf_genpass-project
-  - name: attrs_mate
-    description: attrs 是 Python 社区中最强大的用于写 class 的工具, 无第三方依赖, 比 dataclasee, pydantic 等框架都要强大. attrs_mate 是我个人对 attrs 做的一些小扩展, 更方便于使用.
-  - name: aws_lambda_event
-    description: 为 AWS Lambda Event 提供面向对象接口, 将 dict 数据转化成 python object, 提供 type hint, attribute auto complete, ser / de 等便利功能.
-  - name: compress
-    description: 整合了多种 Python 内置以及第三方的 binary 数据压缩工具, 用同一个接口, 使用不同的压缩算法, 对不同的数据类型进行压缩.
-  - name: configirl
-    description: 无第三方依赖的 Config Management 工具. 定义一次, 多处运行.
-  - name: constant2
-    description: 一个类似 Enum, 但是提供了类似 SQL 的简易查询功能的工具.
-  - name: cottonformation
-    description: 基于 attrs 的 AWS Cloudformation 工具, 允许你用面向对象的语法定义 AWS Resource, 并提供了许多额外的最佳实践, 以及一键部署支持.
-  - name: docfly
-    description: sphinx-doc 的文档工具, 允许你自动生成 Table of Content, 以及根据源代码自动生成 ``.. autodoc`` 的 API 文档
-  - name: loggerFactory
-    description: 基于标准库 logging 的 wrapper, 内置了各种常用的 logger, 开箱即用.
-  - name: mongoengine_mate
-    description: 对 mongoengine 这款 mongodb 的 ORM 框架的扩展.
-  - name: pathlib_mate
-    description: 对标准库 pathlib 的扩展, 无第三方依赖. 支持 Python2/3, 提供了额外的属性以及方法.
-  - name: pgr
-    description: 使用 pygitrepo 生成的一个展示项目, 展示了用 pygitrepo 来开发一个 Python 项目的全过程.
-  - name: picage
-    description: 用面向对象的方式对在 site-packages 下的第三方依赖进行访问的工具, 可以用于已安装的第三方包的扫描.
-  - name: pygitrepo
-    description: Python 项目工作流的命令行工具, 可以 创建/销毁 虚拟环境, 安装依赖, 执行各种测试, 用 sphinx build 文档, 部署文档到 AWS S3, build AWS Lambda 的 deployment package 和 layer, 用 AWS Chalice 部署 AWS Lambda 等等.
-  - name: pymongo_mate
-    description: mongodb 的官方 python client, pymongo 的扩展.
-  - name: pynamodb_mate
-    description: AWS Dynamodb ORM 框架 pynamodb 的扩展, 增加了数据类型, 并使其更容易使用.
-  - name: pysecret
-    description: 帮助你的 application code 从各种不同的地方 读 / 写 敏感数据. 比如 password, token 之类的.
-  - name: rolex
-    description: 一个致力于最简洁的语法的 datetime 工具.
-  - name: rstobj
-    description: RestructuredText 的面向对象工具, 允许你在 Python 中定义 RST 对象, 然后生成 RST 文本.
-  - name: s3pathlib
-    description: 以类似于 pathlib 的方式操作 AWS S3 的工具.
-  - name: sqlalchemy_mate
-    description: 对 Python 社区第一的 SQL ORM 工具 sqlalchemy 的扩展.
-  - name: superjson
-    description: 对标准库 json 的一些扩展, 支持额外的数据类型, 支持在 json 中写注释.
-  - name: uszipcode
-    description: 可编程的 United State Zipcode 数据库.
-  - name: windtalker
-    description: 加密, 解密工具, 可以加密 binary data, 字符串, 文件, 文件夹.
+    - name: afwf_aws_tools
+      description: 在 Alfred 中快速打开 AWS Console, 搜索 AWS Resource, 支持全文搜索.
+      homepage: https://github.com/MacHu-GWU/afwf_aws_tools-project
+    - name: afwf_fts_anything
+      description: 一个用于构建 Alfred 全文搜索的框架, 用户只需要把他们的 data 用 JSON 保存, 并配置 settings, 就能立刻构建起一个支持全文搜索, 快速启动的应用.
+      homepage: https://github.com/MacHu-GWU/afwf_fts_anything-project
+    - name: afwf_genpass
+      description: 创建随机密码.
+      homepage: https://github.com/MacHu-GWU/afwf_genpass-project
+    - name: attrs_mate
+      description: attrs 是 Python 社区中最强大的用于写 class 的工具, 无第三方依赖, 比 dataclasee, pydantic 等框架都要强大. attrs_mate 是我个人对 attrs 做的一些小扩展, 更方便于使用.
+    - name: aws_lambda_event
+      description: 为 AWS Lambda Event 提供面向对象接口, 将 dict 数据转化成 python object, 提供 type hint, attribute auto complete, ser / de 等便利功能.
+    - name: compress
+      description: 整合了多种 Python 内置以及第三方的 binary 数据压缩工具, 用同一个接口, 使用不同的压缩算法, 对不同的数据类型进行压缩.
+    - name: configirl
+      description: 无第三方依赖的 Config Management 工具. 定义一次, 多处运行.
+    - name: constant2
+      description: 一个类似 Enum, 但是提供了类似 SQL 的简易查询功能的工具.
+    - name: cottonformation
+      description: 基于 attrs 的 AWS Cloudformation 工具, 允许你用面向对象的语法定义 AWS Resource, 并提供了许多额外的最佳实践, 以及一键部署支持.
+    - name: docfly
+      description: sphinx-doc 的文档工具, 允许你自动生成 Table of Content, 以及根据源代码自动生成 ``.. autodoc`` 的 API 文档
+    - name: loggerFactory
+      description: 基于标准库 logging 的 wrapper, 内置了各种常用的 logger, 开箱即用.
+    - name: mongoengine_mate
+      description: 对 mongoengine 这款 mongodb 的 ORM 框架的扩展.
+    - name: pathlib_mate
+      description: 对标准库 pathlib 的扩展, 无第三方依赖. 支持 Python2/3, 提供了额外的属性以及方法.
+    - name: pgr
+      description: 使用 pygitrepo 生成的一个展示项目, 展示了用 pygitrepo 来开发一个 Python 项目的全过程.
+    - name: picage
+      description: 用面向对象的方式对在 site-packages 下的第三方依赖进行访问的工具, 可以用于已安装的第三方包的扫描.
+    - name: pygitrepo
+      description: Python 项目工作流的命令行工具, 可以 创建/销毁 虚拟环境, 安装依赖, 执行各种测试, 用 sphinx build 文档, 部署文档到 AWS S3, build AWS Lambda 的 deployment package 和 layer, 用 AWS Chalice 部署 AWS Lambda 等等.
+    - name: pymongo_mate
+      description: mongodb 的官方 python client, pymongo 的扩展.
+    - name: pynamodb_mate
+      description: AWS Dynamodb ORM 框架 pynamodb 的扩展, 增加了数据类型, 并使其更容易使用.
+    - name: pysecret
+      description: 帮助你的 application code 从各种不同的地方 读 / 写 敏感数据. 比如 password, token 之类的.
+    - name: rolex
+      description: 一个致力于最简洁的语法的 datetime 工具.
+    - name: rstobj
+      description: RestructuredText 的面向对象工具, 允许你在 Python 中定义 RST 对象, 然后生成 RST 文本.
+    - name: s3pathlib
+      description: 以类似于 pathlib 的方式操作 AWS S3 的工具.
+    - name: sqlalchemy_mate
+      description: 对 Python 社区第一的 SQL ORM 工具 sqlalchemy 的扩展.
+    - name: superjson
+      description: 对标准库 json 的一些扩展, 支持额外的数据类型, 支持在 json 中写注释.
+    - name: uszipcode
+      description: 可编程的 United State Zipcode 数据库.
+    - name: windtalker
+      description: 加密, 解密工具, 可以加密 binary data, 字符串, 文件, 文件夹.
