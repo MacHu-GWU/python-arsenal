@@ -1,0 +1,4 @@
+requests
+sqlitedict
+pathlib_mate
+rstobj

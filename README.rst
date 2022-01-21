@@ -31,7 +31,7 @@ Redis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Redis driver.
 
-* `redis <https://pypi.python.org/pypi/redis>`_ - Python client for Redis key-value store
+* `redis <https://pypi.python.org/pypi/redis>`_ - Python client for Redis database and key-value store
 
 
 Other
@@ -84,7 +84,7 @@ Cache
 
 * `beaker <https://pypi.python.org/pypi/beaker>`_ - A Session and Caching library with WSGI Middleware
 * `cachetools <https://pypi.python.org/pypi/cachetools>`_ - Extensible memoizing collections and decorators
-* `diskcache <https://pypi.python.org/pypi/diskcache>`_ - Disk and file backed cache.
+* `diskcache <https://pypi.python.org/pypi/diskcache>`_ - Disk Cache -- Disk and file backed persistent cache.
 * `lru-dict <https://pypi.python.org/pypi/lru-dict>`_ - An Dict like LRU container.
 * `pylru <https://pypi.python.org/pypi/pylru>`_ - A least recently used (LRU) cache implementation
 
@@ -92,11 +92,11 @@ Cache
 Test
 -------------------------------------------------------------------------------
 
-* `codecov <https://pypi.python.org/pypi/codecov>`_ - Hosted coverage reports for Github, Bitbucket and Gitlab
+* `codecov <https://pypi.python.org/pypi/codecov>`_ - Hosted coverage reports for GitHub, Bitbucket and Gitlab
 * `mock <https://pypi.python.org/pypi/mock>`_ - Rolling backport of unittest.mock for all Pythons
 * `pytest <https://pypi.python.org/pypi/pytest>`_ - pytest: simple powerful testing with Python
 * `pytest-cov <https://pypi.python.org/pypi/pytest-cov>`_ - Pytest plugin for measuring coverage.
-* `tox <https://pypi.python.org/pypi/tox>`_ - virtualenv-based automation of test activities
+* `tox <https://pypi.python.org/pypi/tox>`_ - tox is a generic virtualenv management and test command line tool
 
 
 Python
@@ -122,7 +122,7 @@ Data Structure
 * `attrdict <https://pypi.python.org/pypi/attrdict>`_ - A dict with attribute-style access
 * `collections-extended <https://pypi.python.org/pypi/collections-extended>`_ - Extra Python Collections - bags (multisets) and setlists (ordered sets)
 * `cyordereddict <https://pypi.python.org/pypi/cyordereddict>`_ - Cython implementation of Python's collections.OrderedDict
-* `ordered-set <https://pypi.python.org/pypi/ordered-set>`_ - A MutableSet that remembers its order, so that every entry has an index.
+* `ordered-set <https://pypi.python.org/pypi/ordered-set>`_ - A set that remembers its order, and allows looking up its items by their index in that order.
 * `orderedset <https://pypi.python.org/pypi/orderedset>`_ - An Ordered Set implementation in Cython.
 * `simhash <https://pypi.python.org/pypi/simhash>`_ - A Python implementation of Simhash Algorithm
 * `sortedcontainers <https://pypi.python.org/pypi/sortedcontainers>`_ - Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
@@ -137,7 +137,7 @@ Tree
 Queue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `queuelib <https://pypi.python.org/pypi/queuelib>`_ - Collection of persistent (disk-based) queues
+* `queuelib <https://pypi.python.org/pypi/queuelib>`_ - Collection of persistent (disk-based) and non-persistent (memory-based) queues
 * `rq <https://pypi.python.org/pypi/rq>`_ - RQ is a simple, lightweight, library for creating background jobs, and processing them.
 
 
@@ -150,7 +150,7 @@ Cralwer
 * `pytq <https://pypi.python.org/pypi/pytq>`_ - A Task Queue Scheduler Framework.
 * `requests <https://pypi.python.org/pypi/requests>`_ - Python HTTP for Humans.
 * `scrapy <https://pypi.python.org/pypi/scrapy>`_ - A high-level Web Crawling and Web Scraping framework
-* `selenium <https://pypi.python.org/pypi/selenium>`_ - Python bindings for Selenium
+* `selenium <https://pypi.python.org/pypi/selenium>`_ - 
 
 
 Natural Language Process
@@ -158,14 +158,14 @@ Natural Language Process
 
 * `gensim <https://pypi.python.org/pypi/gensim>`_ - Python framework for fast Vector Space Modelling
 * `nltk <https://pypi.python.org/pypi/nltk>`_ - Natural Language Toolkit
-* `spacy <https://pypi.python.org/pypi/spacy>`_ - Industrial-strength Natural Language Processing (NLP) with Python and Cython
+* `spacy <https://pypi.python.org/pypi/spacy>`_ - Industrial-strength Natural Language Processing (NLP) in Python
 * `textblob <https://pypi.python.org/pypi/textblob>`_ - Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing, and more.
 
 
 Chinese
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `jieba <https://pypi.python.org/pypi/jieba>`_ - Chinese Words Segementation Utilities
+* `jieba <https://pypi.python.org/pypi/jieba>`_ - Chinese Words Segmentation Utilities
 * `pinyin <https://pypi.python.org/pypi/pinyin>`_ - Translate chinese chars to pinyin based on Mandarin.dat
 
 
@@ -184,7 +184,7 @@ Sphinx
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `cloud_sptheme <https://pypi.python.org/pypi/cloud_sptheme>`_ - a nice sphinx theme named 'Cloud', and some related extensions
-* `docfly <https://pypi.python.org/pypi/docfly>`_ - A utility tool to help you build better sphinx documents
+* `docfly <https://pypi.python.org/pypi/docfly>`_ - A utility tool to help you build better sphinx documents.
 * `sphinx <https://pypi.python.org/pypi/sphinx>`_ - Python documentation generator
 * `sphinx_bootstrap_theme <https://pypi.python.org/pypi/sphinx_bootstrap_theme>`_ - Sphinx Bootstrap Theme.
 * `sphinx_rtd_theme <https://pypi.python.org/pypi/sphinx_rtd_theme>`_ - Read the Docs theme for Sphinx
@@ -196,7 +196,7 @@ Package that make other package easier to use / more powerful.
 
 * `attrs_mate <https://pypi.python.org/pypi/attrs_mate>`_ - A plugin extends power of attrs library.
 * `inspect_mate <https://pypi.python.org/pypi/inspect_mate>`_ - Extend the ``inspect`` standard library.
-* `mongoengine_mate <https://pypi.python.org/pypi/mongoengine_mate>`_ - A library extend mongoengine.
+* `mongoengine_mate <https://pypi.python.org/pypi/mongoengine_mate>`_ - Utility methods for MongoDB ORM, built on top of mongoengine.
 * `pandas_mate <https://pypi.python.org/pypi/pandas_mate>`_ - Provide utility method for pandas.
 * `pathlib_mate <https://pypi.python.org/pypi/pathlib_mate>`_ - An extended and more powerful pathlib.
 * `pymongo_mate <https://pypi.python.org/pypi/pymongo_mate>`_ - A library extend pymongo module, makes CRUD easier, and more.
@@ -232,7 +232,7 @@ Visualization
 Core
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `numpy <https://pypi.python.org/pypi/numpy>`_ - NumPy: array processing for numbers, strings, records, and objects.
+* `numpy <https://pypi.python.org/pypi/numpy>`_ - NumPy is the fundamental package for array computing with Python.
 * `pandas <https://pypi.python.org/pypi/pandas>`_ - Powerful data structures for data analysis, time series, and statistics
 * `scipy <https://pypi.python.org/pypi/scipy>`_ - SciPy: Scientific Library for Python
 

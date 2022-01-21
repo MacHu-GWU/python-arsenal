@@ -9,3 +9,5 @@ Package that make other package easier to use / more powerful.
 * mongoengine_mate
 * pathlib_mate
 * sqlalchemy_mate
+* pynamodb_mate
+
